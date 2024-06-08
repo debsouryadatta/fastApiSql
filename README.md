@@ -20,3 +20,7 @@
 17. Creating a context manager(lifespan) so that we can connect to db & create tables before starting the app
 18. Creating the get_all get endpoint, get_single_todo get endpoint, creating the edit_todo put endpoint, creating the delete_todo delete endpoint, using session.exec() to execute the queries.
 19. Using HTTPException to throw the errors
+
+20. Copying the whole frontend code from the github repo since i have idea about frontend.
+
+21. Starting the next part -> Adding OAuth2 Authentication for Multi-user
