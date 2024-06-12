@@ -49,9 +49,8 @@
 
 
 
-### Working of Refresh Token -> After User Registration, whenever the user logs in, he/she will get an access_token and a refresh_token. After the access_token expires, the frontend will get expiration errors, then the frontend will send the refresh_token to the refresh_token endpoint, which will generate a new access_token and a new refresh_token, the frontend will then use the new access_token and the new refresh_token to make the requests. And the loop goes on!
+- Working of Refresh Token -> After User Registration, whenever the user logs in, he/she will get an access_token and a refresh_token. After the access_token expires, the frontend will get expiration errors, then the frontend will send the refresh_token to the refresh_token endpoint, which will generate a new access_token and a new refresh_token, the frontend will then use the new access_token and the new refresh_token to make the requests. And the loop goes on!
 
+- For Installing all the dependencies in the poetry.toml file, run - poetry install
 
-
-
-*** The route handlers are marked as async functions, the rest are normal functions. ***
+- The route handlers are marked as async functions, the rest are normal functions. 
